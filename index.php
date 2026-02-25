@@ -68,12 +68,9 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(255,255,255,0.92);
-            backdrop-filter: blur(24px) saturate(180%);
-            -webkit-backdrop-filter: blur(24px) saturate(180%);
+            background: #ffffff;
             border-bottom: 1px solid rgba(0,0,0,0.05);
             padding: 0;
-            transition: box-shadow 0.3s;
         }
         .navbar.shadow { box-shadow: 0 1px 20px rgba(0,0,0,0.06); }
         .navbar .container {
@@ -1143,12 +1140,7 @@
             <li><a href="#why-us">Why Us</a></li>
             <li><a href="#products">Insurance</a></li>
             <li><a href="#process">Process</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
         </ul>
-        <div class="nav-cta-wrap">
-            <a href="tel:+60123456789" class="nav-phone"><i class="fas fa-phone"></i> +60 12-345 6789</a>
-            <a href="https://wa.me/60123456789?text=Hi%20Insura360%2C%20I%20would%20like%20a%20free%20quote." class="nav-btn" target="_blank"><i class="fab fa-whatsapp"></i> Get a Quote</a>
-        </div>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
     </div>
 </nav>
@@ -1260,7 +1252,7 @@
                     <p>Comprehensive, third-party, and special perils coverage for private vehicles, motorcycles, and commercial fleets. Includes NCD protection and windscreen cover.</p>
                 </div>
                 <div class="svc-img">
-                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0afe?w=400&h=250&fit=crop" alt="Motor Insurance">
+                    <img src="https://loremflickr.com/400/250/car" alt="Motor Insurance">
                 </div>
             </div>
             <div class="svc-card reveal reveal-delay-1">
@@ -1297,62 +1289,6 @@
     </div>
 </section>
 
-<!-- WHY US -->
-<section class="section" id="why-us" style="background: var(--off-white);">
-    <div class="container">
-        <div class="why-split">
-            <div class="why-left reveal">
-                <div class="section-tag">Why Insura360</div>
-                <h2 class="section-title">Not just a policy.<br>A <em>partnership.</em></h2>
-                <p class="section-desc">We take the time to understand your risks, compare options across insurers, and stay with you long after the policy is signed.</p>
-                <div class="why-list">
-                    <div class="why-item">
-                        <div class="why-num">01</div>
-                        <div>
-                            <h4>Personalised Risk Assessment</h4>
-                            <p>Every client gets a custom analysis — no cookie-cutter recommendations.</p>
-                        </div>
-                    </div>
-                    <div class="why-item">
-                        <div class="why-num">02</div>
-                        <div>
-                            <h4>Claims Advocacy</h4>
-                            <p>We fight for your claim from filing to settlement. 98% success rate.</p>
-                        </div>
-                    </div>
-                    <div class="why-item">
-                        <div class="why-num">03</div>
-                        <div>
-                            <h4>Best Market Pricing</h4>
-                            <p>Access to 20+ insurers means we always find you the most competitive rates.</p>
-                        </div>
-                    </div>
-                    <div class="why-item">
-                        <div class="why-num">04</div>
-                        <div>
-                            <h4>Always Available</h4>
-                            <p>WhatsApp, call, or email — we respond fast, even on weekends for emergencies.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="why-right reveal reveal-delay-2">
-                <div class="why-img-grid">
-                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=350&fit=crop" alt="Handshake">
-                    <img src="https://images.unsplash.com/photo-1553484771-047a44eee27b?w=400&h=350&fit=crop" alt="Advisory team">
-                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=280&fit=crop" alt="Happy client">
-                </div>
-                <div class="why-float">
-                    <div class="why-float-icon"><i class="fas fa-star"></i></div>
-                    <div>
-                        <h5>4.9 / 5.0 Rating</h5>
-                        <p>Based on 2,400+ client reviews</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- INSURANCE PRODUCTS -->
 <section class="section" id="products">
@@ -1416,129 +1352,6 @@
                     <a href="https://wa.me/60123456789?text=Hi%2C%20I%27m%20interested%20in%20Health%20Insurance." class="prod-link" target="_blank">Get Quote <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
-
-            <div class="prod-card reveal">
-                <div class="prod-card-top">
-                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop" alt="Business Insurance">
-                </div>
-                <div class="prod-card-body">
-                    <h3>Business &amp; Liability</h3>
-                    <p>Protect your business ops with tailored commercial insurance solutions.</p>
-                    <ul class="prod-features">
-                        <li><i class="fas fa-check"></i> Public Liability</li>
-                        <li><i class="fas fa-check"></i> Workmen Comp</li>
-                        <li><i class="fas fa-check"></i> Prof. Indemnity</li>
-                        <li><i class="fas fa-check"></i> Fidelity Guarantee</li>
-                    </ul>
-                    <a href="https://wa.me/60123456789?text=Hi%2C%20I%27m%20interested%20in%20Business%20Insurance." class="prod-link" target="_blank">Get Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <div class="prod-card reveal reveal-delay-1">
-                <div class="prod-card-top">
-                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109db05?w=500&h=300&fit=crop" alt="Travel Insurance">
-                </div>
-                <div class="prod-card-body">
-                    <h3>Travel Insurance</h3>
-                    <p>Fly with confidence — medical, cancellation, and baggage cover worldwide.</p>
-                    <ul class="prod-features">
-                        <li><i class="fas fa-check"></i> Overseas Medical</li>
-                        <li><i class="fas fa-check"></i> Trip Cancellation</li>
-                        <li><i class="fas fa-check"></i> Lost Baggage</li>
-                        <li><i class="fas fa-check"></i> Annual / Single Trip</li>
-                    </ul>
-                    <a href="https://wa.me/60123456789?text=Hi%2C%20I%27m%20interested%20in%20Travel%20Insurance." class="prod-link" target="_blank">Get Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <div class="prod-card reveal reveal-delay-2">
-                <div class="prod-card-top">
-                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&h=300&fit=crop" alt="Engineering Insurance">
-                </div>
-                <div class="prod-card-body">
-                    <h3>Engineering &amp; Contractor</h3>
-                    <p>Specialised cover for construction projects, machinery, and engineering works.</p>
-                    <ul class="prod-features">
-                        <li><i class="fas fa-check"></i> CAR / EAR</li>
-                        <li><i class="fas fa-check"></i> Machinery Breakdown</li>
-                        <li><i class="fas fa-check"></i> Performance Bond</li>
-                        <li><i class="fas fa-check"></i> Boiler &amp; Pressure</li>
-                    </ul>
-                    <a href="https://wa.me/60123456789?text=Hi%2C%20I%27m%20interested%20in%20Engineering%20Insurance." class="prod-link" target="_blank">Get Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- PROCESS -->
-<section class="section process-section" id="process">
-    <div class="container">
-        <div class="section-head-center reveal">
-            <div class="section-tag" style="color: var(--green-light);">How It Works</div>
-            <h2 class="section-title" style="color: var(--white);">Get covered in <em>4 easy steps</em></h2>
-            <p class="section-desc" style="color: rgba(255,255,255,0.5);">Our process is designed to be simple, fast, and transparent — so you spend less time on paperwork and more time living.</p>
-        </div>
-        <div class="process-track">
-            <div class="proc-step reveal">
-                <div class="proc-num n1">01</div>
-                <h4>Reach Out</h4>
-                <p>WhatsApp us or fill out our quick enquiry form with your basic details.</p>
-            </div>
-            <div class="proc-step reveal reveal-delay-1">
-                <div class="proc-num n2">02</div>
-                <h4>Free Consultation</h4>
-                <p>Our advisor reviews your needs and recommends the best-fit coverage.</p>
-            </div>
-            <div class="proc-step reveal reveal-delay-2">
-                <div class="proc-num n3">03</div>
-                <h4>Compare Quotes</h4>
-                <p>We present competitive quotes from multiple insurers — you choose.</p>
-            </div>
-            <div class="proc-step reveal reveal-delay-3">
-                <div class="proc-num n4">04</div>
-                <h4>Get Protected</h4>
-                <p>Sign, pay, and receive your policy. You're officially covered!</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="section" id="testimonials">
-    <div class="container">
-        <div class="section-head-center reveal">
-            <div class="section-tag">Client Stories</div>
-            <h2 class="section-title">Trusted by thousands across <em>Malaysia</em></h2>
-            <p class="section-desc">Real feedback from real clients who trust Insura360 with their protection.</p>
-        </div>
-        <div class="test-grid">
-            <div class="test-card reveal">
-                <div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                <blockquote>"My motor claim was settled in under 48 hours. The team handled everything — I didn't have to chase a single document. Incredible service."</blockquote>
-                <div class="test-author">
-                    <div class="test-avatar bg1">AH</div>
-                    <div><h5>Ahmad Hakim</h5><p>Business Owner, Kuala Lumpur</p></div>
-                </div>
-            </div>
-            <div class="test-card reveal reveal-delay-1">
-                <div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                <blockquote>"I've been with Insura360 for 5 years. They always find better rates during renewals and their WhatsApp support is genuinely responsive."</blockquote>
-                <div class="test-author">
-                    <div class="test-avatar bg2">SL</div>
-                    <div><h5>Sarah Lim</h5><p>HR Manager, Penang</p></div>
-                </div>
-            </div>
-            <div class="test-card reveal reveal-delay-2">
-                <div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                <blockquote>"They restructured our entire company insurance portfolio and saved us 30%. Professional, transparent, and genuinely client-focused."</blockquote>
-                <div class="test-author">
-                    <div class="test-avatar bg3">RK</div>
-                    <div><h5>Raj Kumar</h5><p>CEO, Tech Startup</p></div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <!-- CTA -->
@@ -1576,7 +1389,6 @@
     <div class="container">
         <div class="footer-top">
             <div class="footer-brand">
-                <img src="Insura360 logo.webp" alt="Insura360">
                 <p>Your trusted partner for comprehensive general insurance solutions across Malaysia. Expert advisory, competitive rates, and genuine care.</p>
                 <div class="footer-socials">
                     <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
